@@ -5,14 +5,14 @@
 - Bag Reports
 - SQL
 - Charles
-- Mobile testing
+- Mobile testing   -- git branch "Названия веток"
 
-2. Запушить все ветки на внешний репозиторий
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
-4. Запушить структуру багрепорта на внешний репозиторий
-5. Вмержить ветку Bag Reports в Main
-6. Запушить main на внешний репозиторий.
-7. В ветке CheckLists набросать структуру чек листа.
-8. Запушить структуру на внешний репозиторий
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-10. Синхронизировать Внешнюю и Локальную ветки Main
+2. Запушить все ветки на внешний репозиторий  -- git add . && git commit -m "Add branches" && git push
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта  -- git checkout BagReports -- touch br_structure.txt 
+4. Запушить структуру багрепорта на внешний репозиторий -- git add . && git commit -m "Add br_structure" && git push
+5. Вмержить ветку Bag Reports в Main  -- git checkout Main && git merge BagReports
+6. Запушить main на внешний репозиторий. -- -- git add . && git commit -m "merge BR tj Main" && git push
+7. В ветке CheckLists набросать структуру чек листа.   -- git checkout BagReports -- touch CheckList_structure.txt 
+8. Запушить структуру на внешний репозиторий -- git add . && git commit -m "Add CheckList_structure" && git push
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main  
+10. Синхронизировать Внешнюю и Локальную ветки Main  -- git pull

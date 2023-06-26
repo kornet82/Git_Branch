@@ -8,7 +8,7 @@
 - Mobile testing   -- git branch "Названия веток"
 
 2. Запушить все ветки на внешний репозиторий  -- git add . && git commit -m "Add branches" && git push
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта  -- git checkout BagReports -- touch br_structure.txt 
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта  -- git checkout BagReports && touch br_structure.txt 
 4. Запушить структуру багрепорта на внешний репозиторий -- git add . && git commit -m "Add br_structure" && git push
 5. Вмержить ветку Bag Reports в Main  -- git checkout Main && git merge BagReports
 6. Запушить main на внешний репозиторий. -- -- git add . && git commit -m "merge BR tj Main" && git push

@@ -15,4 +15,4 @@
 7. В ветке CheckLists набросать структуру чек листа.   -- git checkout BagReports -- touch CheckList_structure.txt 
 8. Запушить структуру на внешний репозиторий -- git add . && git commit -m "Add CheckList_structure" && git push
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main  
-10. Синхронизировать Внешнюю и Локальную ветки Main  -- git pull
+10. Синхронизировать Внешнюю и Локальную ветки Main  -- git checkout main && git fetch -- git pull
